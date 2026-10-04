@@ -1,0 +1,50 @@
+body{
+    background-image:linear-gradient(rgba(34, 33, 33, 0.7),rgba(58, 56, 56, 0.7)) , url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+    font-family:'Times New Roman', Times, serif;
+}
+a,a:visited{
+    display: block;
+    color:white;
+}
+h1{
+    font-style: italic;
+}
+h1,h2,h3{
+font-weight: bold;
+}
+p{
+    font-variant-caps: all-small-caps;
+}
+li{
+
+}
+ul,ol{
+ background-color:rgba(0,0,0,.5);
+ padding:1rem 2rem;
+}
+li{
+
+}
+ol{
+
+}
+hr{
+
+}
+span{
+
+}
+figure{
+
+}
+
+input{
+font-family: serif;
+}
+fieldset{
+
+}
