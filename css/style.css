@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color:#e6e3e3;
+    color:#fff;
    font-family: "PT Serif", serif;
   font-weight: 400;
   font-style: normal;
@@ -17,18 +17,27 @@ div{
 a,a:visited{
     display: block;
     color:white;
-    font-weight: bold;
 }
-h1,h2{
+
+h1{
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: italic;
     text-align: center;
     
 }
-h3{
+h2,h3{
+    font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-style: normal;
+}
+h2{
+    text-align: center;
+}
+h3,.salmon{
      color:#dfafa8;
 }
+
 .hero a{
     text-align: center;
 }
@@ -37,7 +46,7 @@ h3{
    justify-content: center;
 }
 .hero-img-container img{
-   width: 40%;
+   width: 20%;
    margin: 0 auto;
    border-radius: 5px;
     
@@ -71,9 +80,6 @@ h3{
 .directions-container{
     margin: 2rem auto;
 }
-h1,h2,h3{
-font-weight: bold;
-}
 p{
     font-variant-caps: all-small-caps;
 }
@@ -90,16 +96,10 @@ background-color: white;
 margin:0;
 align-self: stretch;
 }
-span{
 
-}
-figure{
-
-}
-
-input{
-font-family: serif;
+input[type="radio"]{
+    accent-color:#dfafa8;
 }
 fieldset{
-
+background-color:rgba(0,0,0,.3);
 }
