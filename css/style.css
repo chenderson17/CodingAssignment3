@@ -1,116 +1,3 @@
-/* 
-body{
-    background-image:linear-gradient(rgba(34, 33, 33, 0.7),rgba(58, 56, 56, 0.7)) , url("../images/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color:#fff;
-   font-family: "PT Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-div{
-    border:2px red solid; 
-}
-a,a:visited{
-    display: block;
-    color:white;
-}
-
-h1{
-    font-family: "PT Serif", serif;
-    font-weight: 400;
-    font-style: italic;
-    text-align: center;
-    padding:1rem;
-}
-h2,h3{
-    font-family: "PT Serif", serif;
-  font-weight: bold;
-  font-style: normal;
-}
-h2{
-    text-align: center;
-}
-h3,.salmon{
-     color:#dfafa8;
-}
-
-.hero a{
-    text-align: center;
-}
-.hero-img-container{
-   display: flex;
-   justify-content: center;
-}
-.hero-img-container img{
-   width: 30%;
-   margin: 0 auto;
-   border-radius: 5px;
-    
-}
-.ingrid-conver-container{
-    display: flex;
-    justify-content:center;
-}
-.ingrid-container{
-    margin:0 2rem;
-    padding: 2rem;
-}
-.conver-container,.directions-container,.ingrid-container{
-    background-color:rgba(0,0,0,.3);
-    padding:2rem;
-    margin:2rem 0;
-}
-.conver-container input{
-    border:none;
-    padding: 5px;
-    border-radius: 5px;
-    font-family: "PT Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.recipe-rate-container{
-    width: 25%;
-    text-align: center;
-    margin:0 auto;
-}
-.directions-container{
-    margin: 2rem auto;
-}
-p{
-    font-variant-caps: all-small-caps;
-}
-li{
-    margin:5px 0;
-}
-ul,ol{
-  background-color:rgba(0,0,0,.5); 
- padding:1rem 2rem;
- width: 25%; 
-}
-hr{
-background-color: white;
-margin:0;
-align-self: stretch;
-}
-
-input[type="radio"]{
-    accent-color:#dfafa8;
-}
-label{
-    font-family: "PT Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-fieldset{
-padding: 1rem;
-} 
-*/
 
 body{
     background-image:linear-gradient(rgba(34, 33, 33, 0.7),rgba(58, 56, 56, 0.7)) , url("../images/background.png");
@@ -210,4 +97,10 @@ align-self: stretch;
 .box3,.box4{
     background-color: rgba(34, 33, 33, 0.3);
     padding: 2rem;
+}
+p{
+    font-variant-caps: all-small-caps;
+}
+li{
+    margin:5px 0;
 }
